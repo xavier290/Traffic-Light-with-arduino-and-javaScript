@@ -1,0 +1,17 @@
+{
+    "name": "arduino-nodejs",
+    "description": "Ejemplo blink",
+    "author": "xavier sanchez",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "^4.13.3",
+        "firmata": "^2.2.0",
+        "firmata-party": "2.0.1",
+        "socket.io": "^1.3.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "firmata": "firmata-party uno -- debug"
+    },
+    "license": "ISC"
+}
